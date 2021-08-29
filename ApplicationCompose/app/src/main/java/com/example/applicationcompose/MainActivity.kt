@@ -115,10 +115,10 @@ fun Conversationchat(messages: List<Message>) {
 }
 
 
-@Preview(
-    name = "Light Mode",
-    showBackground = true
-)
+//@Preview(
+//    name = "Light Mode",
+//    showBackground = true
+//)
 @Preview(
     name = "Night Mode",
     showBackground = true,

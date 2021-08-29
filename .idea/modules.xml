@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidProjects.iml" filepath="$PROJECT_DIR$/.idea/AndroidProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JetComposeBasic.iml" filepath="$PROJECT_DIR$/.idea/modules/JetComposeBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JetComposeBasic.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JetComposeBasic.app.iml" />
     </modules>
   </component>
 </project>
