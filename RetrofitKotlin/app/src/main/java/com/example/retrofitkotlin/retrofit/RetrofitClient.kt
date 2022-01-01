@@ -5,7 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    var BASE_URL : String = "https://jsonplaceholder.typicode.com/"
+//    var BASE_URL : String = "https://jsonplaceholder.typicode.com/"
+    var BASE_URL : String = "https://simplifiedcoding.net/demos/"
     val retrofitApiInterface : RetrofitApiInterface
 //    get(){
 //        val retrofit = Retrofit.Builder()

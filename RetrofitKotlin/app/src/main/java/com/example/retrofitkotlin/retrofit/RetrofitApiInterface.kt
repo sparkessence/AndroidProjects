@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface RetrofitApiInterface {
 
-    @GET("photos")
+    @GET("marvel")
     fun getPhotos() : Call<List<AlbumDataModel>>
 }

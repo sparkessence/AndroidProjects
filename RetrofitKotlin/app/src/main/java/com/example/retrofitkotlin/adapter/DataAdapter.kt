@@ -29,7 +29,7 @@ class DataAdapter(private var dataList: List<AlbumDataModel>, private val contex
 
     override fun onBindViewHolder(holder: DataAdapter.MyViewHolder, position: Int) {
         val dataModel = dataList.get(position)
-        holder.titleTextView.text = dataModel.title
+        holder.titleTextView.text = dataModel.superName
     }
 
     override fun getItemCount(): Int {
