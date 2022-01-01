@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.retrofitkotlin.R
 import com.example.retrofitkotlin.adapter.DataAdapter
 import com.example.retrofitkotlin.model.AlbumDataModel
-import com.example.retrofitkotlin.retrofit.RetrofitClient
+import com.example.retrofitkotlin.retrofit.RetrofitClientInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getRetroData() {
 
-        val call : Call<List<AlbumDataModel>> = RetrofitClient.retrofitApiInterface.getPhotos()
+        val call : Call<List<AlbumDataModel>> = RetrofitClientInstance.retrofitApiInterface.getPhotos()
 
         call.enqueue(object : Callback<List<AlbumDataModel>> {
 

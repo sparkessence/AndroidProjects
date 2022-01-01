@@ -3,7 +3,7 @@ package com.example.retrofitkotlin.retrofit
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-object RetrofitClient {
+object RetrofitClientInstance {
 
 //    var BASE_URL : String = "https://jsonplaceholder.typicode.com/"
     var BASE_URL : String = "https://simplifiedcoding.net/demos/"
@@ -25,7 +25,5 @@ object RetrofitClient {
 
         retrofitApiInterface =  retrofit.create(RetrofitApiInterface::class.java)
     }
-
-
 
 }
